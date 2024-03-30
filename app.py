@@ -34,7 +34,7 @@ def applyMask(img):
 ##############
 @st.cache
 def load():
-    return load_model('ResU_net.h5')
+    return load_model('ResU_net.h5',compile=False)
 model = load()
 
 
